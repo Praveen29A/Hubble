@@ -1,0 +1,657 @@
+:root{
+     --VeryPaleCyan: hsl(193, 100%, 96%);
+     --VeryDarkCyan: hsl(192, 100%, 9%);
+     --GrayishBlue: hsl(208, 11%, 55%);
+}
+*{
+    box-sizing: border-box;
+}
+.banner{
+    background: url(/images/bg-hero-desktop.svg) var(--VeryPaleCyan);
+}
+body{
+    line-height: 1.4;
+    font-family: "Open Sans";
+    font-size: 18px;
+    color: #012730;
+
+}
+button:hover{
+    background-color:  hsl(322, 100%, 66% , 0.5);
+}
+
+p{
+    line-height: 1.4;
+}
+.button1{
+    float: right;
+}
+.button1 button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 100%);
+    color: #0c1b22;
+    font-family: "Open Sans";
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px #d6cdcd;
+}
+.logo {
+  float: left;
+}
+.logo img{
+    width: 200px;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.landcontent{
+float: left;
+width: 50%;
+padding-top: 60px;
+padding-right: 140px;
+
+}
+.heading {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.landimg{
+    float: right;
+    width: 50%;
+   
+}
+
+.landimg img{
+    width:100% ;
+}
+
+.landcontent h1{
+    font-family: "Poppins";
+    font-weight:600 ;
+    font-size: 42px;
+}
+
+.landcontent p{
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.land{
+     margin-top: 80px;
+     margin-left: 80px;
+     margin-right: 80px;
+     padding-bottom:75px ;
+}       
+
+
+.button2 {
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    width: 280px;
+    height: 50px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.grow{
+    width: 1235px;
+    margin: 0 auto;
+    margin-top: 160px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 8px whitesmoke;
+}
+
+.growimg{
+    width:50%;
+    float: right;
+    padding: 40px 40px 40px 120px;
+}
+
+.growcontent{
+    width:50%;
+    float: left;
+    margin-top: 160px;
+    padding-left: 120px;
+}
+
+.growimg img{
+    width:100%;
+}
+
+.growcontent h2{
+    font-family: "Poppins";
+    font-weight:600;
+    font-size: 30px;
+
+}
+.growcontent p{
+    padding-top: 10px;
+    font-family: "Open Sans";
+    font-weight:400;
+    font-size: 18px;
+}
+
+.flowconv{
+    width: 1235px;
+    margin: 0 auto;
+    margin-top: 160px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 8px whitesmoke;
+}
+
+.fcimg{
+    float:left;
+    width: 50%;
+}
+
+.fcimg img{
+    width: 100%;
+    padding: 40px 120px 40px 40px;
+}
+
+.fc-content{
+    float: right;
+    width: 50%;
+    margin-top: 160px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.fc-content h2{
+    font-family: "Poppins";
+    font-weight:600;
+    font-size: 30px;
+}
+
+.fc-content p{
+    padding-top: 10px;
+    font-family: "Open Sans";
+    font-weight:400;
+    font-size: 18px;
+}
+
+.yuser{
+    width: 1235px;
+    margin: 0 auto;
+    margin-top: 160px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 8px whitesmoke;
+}
+
+.yuser-img{
+    width:50%;
+    float: right;
+    padding: 40px 40px 40px 120px;
+}
+
+.yuser-content{
+    width:50%;
+    float: left;
+    margin-top: 160px;
+    padding-left: 120px;
+}
+
+.yuser-img img{
+    width:100%;
+}
+
+.yuser-content h2{
+    font-family: "Poppins";
+    font-weight:600;
+    font-size: 30px;
+}
+
+.yuser-content p{
+    padding-top: 10px;
+    font-family: "Open Sans";
+    font-weight:400;
+    font-size: 18px;
+}
+
+.card{
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #fff;
+    transform: translate(0%,65%);
+}
+
+.card h2{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+}
+
+.card p{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.button3{
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    width: 400px;
+    height: 80px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.f-layout {
+    background-color: #00252e;
+    color: #fff;
+    padding: 190px 190px 120px 120px;
+    width: 100%;
+}
+
+.logo2{
+    padding-bottom: 50px;
+}
+
+.details{
+    width: 100%;
+}
+
+
+.address{
+    width: 40%;
+    float: left;
+}
+
+
+
+.others1{
+    width: 20%;
+    float: left;
+    padding-left: 135px;
+}
+
+.others2{
+    width: 20%;
+    float: left;
+    padding-left: 145px;
+}
+.socialmedia{
+    width: 20%;
+    float: right;
+    padding-left: 135px;
+    
+}
+
+.address li{
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+.location{
+    list-style-image:url(/images/icon-location.svg);
+
+}
+
+.contact{
+    list-style-image: url(/images/icon-phone.svg);
+    
+}
+
+.email{
+    list-style-image: url(/images/icon-email.svg);
+}
+
+.aboutus{
+    padding-bottom: 30px;
+}
+
+.we_do{
+    padding-bottom: 30px;
+}
+
+.faq{
+    padding-bottom: 30px;
+}
+
+.career{
+    padding-bottom: 30px;
+}
+
+.blog{
+    padding-bottom: 30px;
+}
+
+.contactus{
+    padding-bottom: 30px;
+}
+
+.fb{
+
+    float: left;
+}
+
+.twitter{
+    float: left;
+    padding-left: 30px;
+
+}
+
+.instagram{
+    float: right;
+}
+
+.copyright{
+    float: right;
+    font-size: 12px;
+    font-size: 12px;
+}
+@media (max-width: 768px){
+
+
+    body{
+        width: 100%;
+    }
+
+    .button1{
+        float: right;
+    }
+    .button1 button{
+        width: 100px;
+        height: 25px;
+    }
+    .logo {
+      float: left;
+    }
+    .logo img{
+        width: 100px;
+    }
+    
+    .banner{
+        width: 100%;
+    }
+    
+    .landcontent{
+    float: none;
+    width: 100%;
+    padding : 100px 65px 0px 65px;
+    }
+
+    .landimg {
+        padding-top: 65px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    
+    .landimg img{
+        width: 400px;
+        margin: 0 auto;
+    }
+    
+    .landcontent h1{
+        width:100% ;
+        font-weight:600 ;
+        font-size: 32px;
+    }
+    
+    .landcontent p{
+        font-family: "Open Sans";
+        font-weight: 400;
+        text-align: center;
+    
+    }
+    
+    .land{
+        width: 100%;
+         text-align: center;
+         margin: 0;
+         padding: 0;
+    }       
+    
+    
+    .button2 {
+        color: #fff;
+        font-family: "Open Sans";
+        font-weight: 600;
+        width: 280px;
+        height: 50px;
+        border: none;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .grow{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .growimg{
+        width:100%;
+        float: none;
+        padding: 100px 50px 50px 50px;
+    }
+    
+    .growcontent{
+        width:100%;
+        float: none;
+        margin-top: 10px;
+        padding: 0px 50px 50px 50px;
+
+    }
+    
+    .growimg img{
+        width:100%;
+    }
+    
+    .growcontent h2{
+        font-family: "Poppins";
+        font-weight:600;
+        font-size: 30px;
+    
+    }
+    .growcontent p{
+        padding-top: 10px;
+        font-family: "Open Sans";
+        font-weight:400;
+        font-size: 18px;
+    }
+/* flow conversation */
+    .flowconv{
+        width:90%;
+        margin-top: 100px;
+    }
+
+    .fcimg{
+        width: 100%;
+        float: none;
+        padding: 100px 50px 50px 50px;
+    }
+    .fcimg img{
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .fc-content{
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 50px 50px 50px;
+    }
+    
+    .yuser{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    
+    .yuser-img{
+        width: 100%;
+        float: none;
+        padding: 100px 50px 50px 50px;
+    }
+    
+    .yuser-content{
+        width:100%;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px 50px 50px 50px;
+    }
+    
+    .yuser-img img{
+        width:100%;
+    }
+    
+    .yuser-content h2{
+        font-family: "Poppins";
+        font-weight:600;
+        font-size: 30px;
+    }
+    
+    .yuser-content p{
+        padding-top: 10px;
+        font-family: "Open Sans";
+        font-weight:400;
+        font-size: 18px;
+    }
+    
+    .card{
+        width: 95%;
+        margin: 100px auto;
+        border-radius: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+        background-color: #fff;
+        transform: translate(0%,65%);
+    }
+    
+    .card h2{
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 22px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    
+    }
+    
+    .card p{
+        font-family: "Open Sans";
+        font-weight: 300;
+        font-size: 30px;
+    }
+    .f-layout {
+        background-color: #00252e;
+        color: #fff;
+        width: 100%;
+    }
+    
+    .button3{
+        color: #fff;
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 18px;
+        width: 300px;
+        height: 60px;
+        border: none;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .f-layout {
+        background-color: #00252e;
+        color: #fff;
+        padding: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    .logo2{
+        padding: 100px 0px 30px 20px;
+    }
+  
+    .details{
+        width: 100%;
+    }
+    
+    
+    .address{
+        width: 100%;
+        float: none;
+    }
+
+    .location{
+        list-style-image:url(/images/icon-location.svg);
+        margin-left: 40px;
+    }
+    
+    .contact{
+        list-style-image: url(/images/icon-phone.svg);
+        margin-left: 40px;
+    }
+    
+    .email{
+        list-style-image: url(/images/icon-email.svg);
+        margin-left: 40px;
+    }
+    
+    
+    .others1,.others2{
+        width: 100%;
+        float: none;
+        padding-left: 20px;
+    }
+    .socialmedia{
+        width: 120px;
+        float: none;
+        padding: 0px;
+        margin: 0 auto;
+        
+    }
+    
+    .address li{
+        padding-left: 30px;
+        padding-bottom: 40px;
+    } 
+
+    
+    .aboutus,.we_do,.faq,.career,.blog,.contactus{
+        padding-bottom: 20px;
+    }
+    
+    .twitter{
+        padding-left: 35px;
+    }
+     
+    .copyright{
+        float: none;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+
+    }
+
+
+
+
+}
